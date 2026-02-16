@@ -65,22 +65,6 @@ El sistema está abierto a extensión pero cerrado a modificación:
 
 ---
 
-### L - Liskov Substitution Principle
-Las clases `TecnicoBasico`, `TecnicoIntermedio` y `TecnicoAvanzado` pueden sustituir a `Tecnico` sin afectar el funcionamiento del sistema.
-
----
-
-### I - Interface Segregation Principle
-El diseño evita interfaces innecesarias.  
-La clase abstracta `Tecnico` define únicamente los métodos necesarios para el procesamiento.
-
----
-
-### D - Dependency Inversion Principle
-La clase principal depende de la abstracción `Tecnico`, no de implementaciones concretas.  
-La cadena se construye dinámicamente sin acoplarse a tipos específicos.
-
----
 
 ## Uso de Programación Funcional (Streams)
 
